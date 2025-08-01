@@ -88,7 +88,7 @@
       window.location.href = "../login.html";
     }
 
-    fetch(`http://localhost:5050/api/recipient/history/${user.email}`, {
+    fetch(`https://blood-bank-system-1-n8z7.onrender.com/api/recipient/history/${user.email}`, {
       headers: {
         'Authorization': `Bearer ${token}`
       }

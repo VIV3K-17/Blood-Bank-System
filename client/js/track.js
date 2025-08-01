@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   try {
-    const response = await fetch(`http://localhost:5050/api/recipient/history/${email}`, {
+    const response = await fetch(`https://blood-bank-system-1-n8z7.onrender.com/api/recipient/history/${email}`, {
       headers: {
         'Authorization': token
       }

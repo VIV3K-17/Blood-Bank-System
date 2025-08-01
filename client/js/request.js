@@ -12,7 +12,7 @@ document.getElementById('requestForm').addEventListener('submit', async (e) => {
   const hospital = document.getElementById('hospital').value;
   const reason = document.getElementById('reason').value;
 
-  const res = await fetch('http://localhost:5050/api/recipient/request', {
+  const res = await fetch('https://blood-bank-system-1-n8z7.onrender.com/api/recipient/request', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

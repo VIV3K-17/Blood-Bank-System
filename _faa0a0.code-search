@@ -1,0 +1,17 @@
+# Query: ##faa0a0
+# ContextLines: 1
+
+3 results - 1 file
+
+client/admindashboard.html:
+  16      header {
+  17:       background:#faa0a0;
+  18        color: white;
+
+  38      .card h3 {
+  39:       color: #faa0a0;
+  40      }
+
+  58        text-decoration: none;
+  59:       color: #faa0a0;
+  60        font-weight: bold;
